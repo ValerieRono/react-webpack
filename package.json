@@ -1,0 +1,57 @@
+{
+  "name": "4moms-react-frontend",
+  "version": "1.0.0",
+  "description": "boilerplate for react app",
+  "main": "index.js",
+  "engines": {
+    "npm": "6.4.1",
+    "node": "10.15.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "webpack-dev-server --mode development --open --hot",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValerieRono/4MOMS-REACT-Frontend.git"
+  },
+  "author": "Valerie Rono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValerieRono/4MOMS-REACT-Frontend/issues"
+  },
+  "homepage": "https://github.com/ValerieRono/4MOMS-REACT-Frontend#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.4",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.1",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
